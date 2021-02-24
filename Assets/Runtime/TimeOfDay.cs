@@ -37,7 +37,7 @@ public class TimeOfDay : MonoBehaviour
 
     private void Awake ()
     {
-        instance = FindObjectOfType<TimeOfDay>();
+        instance = this;
         SetHour(0);
     }
 }
